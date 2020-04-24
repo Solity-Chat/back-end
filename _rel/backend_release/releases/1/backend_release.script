@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% script generated at {2020,4,12} {17,29,42}
+%% script generated at {2020,4,24} {20,27,23}
 {script,
     {"backend_release","1"},
     [{preLoaded,
@@ -80,7 +80,7 @@
           cowboy_static,cowboy_stream,cowboy_stream_h,cowboy_sub_protocol,
           cowboy_sup,cowboy_tls,cowboy_tracer_h,cowboy_websocket]},
      {path,["$ROOT/lib/backend-0.1.0/ebin"]},
-     {primLoad,[backend_app,backend_sup,hello_handler]},
+     {primLoad,[backend_app,backend_sup,hello_handler,toppage_h]},
      {path,["$ROOT/lib/sasl-3.1.1/ebin"]},
      {primLoad,
          [alarm_handler,erlsrv,format_lib_supp,misc_supp,rb,rb_format_supp,
@@ -302,7 +302,7 @@
                   [{description,"New project"},
                    {vsn,"0.1.0"},
                    {id,[]},
-                   {modules,[backend_app,backend_sup,hello_handler]},
+                   {modules,[backend_app,backend_sup,hello_handler,toppage_h]},
                    {registered,[backend_sup]},
                    {applications,[kernel,stdlib,cowboy]},
                    {included_applications,[]},
